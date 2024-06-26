@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Notebook Ultra - Specifications</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    #main{
+position: relative;
+max-width: 100%;
+}
+#main a:hover{
+  color: rgb(2, 2, 2);
+}
+#main a{
+color:rgb(0, 0, 0);
+}
+button{
+background-color: transparent;
+border: none;
+padding: 5px;
+color:rgb(0, 0, 0);
+}
+.dropbtn1 {
+color: rgb(0, 0, 0);
+padding-right: 36px;
+font-size: 16px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+right:-25px;
+background-color: #f1f1f1;
+min-width: 80px;
+box-shadow: 0px 10px 20px 0px rgba(240, 13, 13, 0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 0px 4px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.navbar img{
+width:70px;
+height: 50px;
+padding-top: 0px;
+padding-left: 20px;
+}
+.nav-item img{
+height:25px;
+width: 35px;
+padding:0px;
+color:#000000
+
+}
+.collapse{
+margin-right: 25px;
+padding: 2px;
+justify-content: space-evenly;
+}
+.dropdown1 {
+float: left;
+overflow: hidden;
+
+}
+
+.dropdown1 .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: rgb(0, 0, 0);
+padding: 8px;
+background-color: inherit;
+font: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color:  #cecaca;
+}
+.dropdown1-content {
+display: none;
+position: absolute;
+background-color:  #cecaca;
+width: 100%;
+left: 0;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown1-content .header1 {
+background: #cecaca;
+padding: 16px;
+color: rgb(3, 3, 3);
+}
+
+.dropdown1:hover .dropdown1-content {
+display: block;
+}
+.header1 a{
+font-style: normal;
+font-size: 50px;
+text-decoration: none;
+padding: 20px;
+}
+.header1{
+text-align: center;
+padding: 15px;
+
+}
+.vl {
+border-left: 6px solid rgb(172, 175, 172);
+height: 30px;
+position: absolute;
+left: 18%;
+margin-left: -3px;
+top: 40%;
+}
+.header1 a:hover{
+ color: darkorange;
+}
+.column {
+float: left;
+width: 23.33%;
+padding: 30px;
+background-color: #ccc;
+height: 350px;
+}
+
+.column a {
+float: none;
+color: black;
+padding: 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.column a:hover {
+background-color: #ddd;
+}
+.hero {
+  max-width: 100%;
+  margin-top: 75px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  margin-top: 20px;
+
+}
+.topnav-right {
+position: absolute;
+right:10px;
+top:10px;
+overflow: hidden;
+background-color: transparent;
+}
+.topnav-right a {
+color: #000000;
+text-align: center;
+padding: 5px 18px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav-right a:hover {
+color: rgb(241, 84, 10);
+}
+
+.topnav-right {
+float: right;
+}
+.navbar a:hover{
+color: rgb(241, 84, 10);
+}
+.navbar a{
+text-decoration: none;
+color: #000000;
+}
+.h1{
+font-size: x-large;
+}
+.btn{
+color: white;
+background-color: #000000;
+border-radius: 5%;
+width: 100px;
+height: 25px;
+font-size: small;
+text-align: center;
+padding: 2px;
+}
+.btn:hover{
+font-weight: bold ;
+background-color: #9c9999;
+}
+.h1{
+padding-left: 30px;
+}
+.v2{
+border-left: 2px solid rgb(172, 175, 172);
+height: 18px;
+position: absolute;
+left: 18%;
+margin-left: -3px;
+top: 30%;
+}
+.intro{
+position: relative;
+max-width: 100%;
+height:500px;
+background-color: #000000;
+}
+.intro-content img{
+  position: absolute;
+  right:300px;
+  top:100px;
+  height:60%;
+  width: 40%;
+}
+.intro-content{
+color: white;
+ font-size: 50%;
+ text-align: left;
+ padding-top: 200px;
+ padding-left: 200px;
+ max-width: 100%;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) and (max-width: 1199.98px) 
+{ 
+.navbar{
+  flex-direction:row;
+}
+.collapse{
+  flex: 1 1 100%;
+}
+.hero{
+  flex-direction: row;
+  flex: 1 1 100%;
+}
+.intro{
+  flex-direction: row;
+}
+.intro-content{
+  flex: 1 1 100%;
+}
+.info{
+  flex-direction: row;
+}
+.continer{
+  flex: 1 1 100%;
+}
+}
+
+
+    header {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    h2 {
+      margin-top: 20px;
+      color: #333;
+    }
+    p {
+      color: #666;
+      font-size: 1.1em;
+    }
+    .spec-section {
+      margin-bottom: 20px;
+    }
+    hr {
+      border: 1px solid #ddd;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer a{
+      position: relative;
+      left: 48%;
+      color: #666;
+      text-decoration: none;
+    }
+    footer a:hover{
+      color: #666;
+      text-decoration:underline;
+    }
+    .imagescontent{
+      position: relative;
+      top: 1em;
+      left:20%;
+    }
+    .images{
+      position: relative;
+      bottom:7em;
+    }
+  </style>
+</head>
+<body>
+  <div id="main" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+      <button style=" bg-white"><img src="https://static.vecteezy.com/system/resources/previews/019/909/495/original/mi-xiaomi-transparent-mi-xiaomi-free-free-png.png"></img></button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <div class="dropdown1">
+             <button class="dropbtn1" >Store
+             </button>
+           </li>
+           <li class="nav-item">
+             <div class="dropdown1">
+             <button class="dropbtn1">Phone
+             </button>
+             <div class="dropdown1-content">
+               <div class="header1">
+                 <a href="#">xiaomi</a>  <div class="vl"></div>  <a href="#">Redmi</a>
+               </div> 
+               </div> 
+           </li>
+           <li class="nav-item">
+             <div class="dropdown1">
+               <button class="dropbtn1">TV & Smart Home
+               </button>
+               <div class="dropdown1-content">
+                 <div class="row">
+                   <div class="column">
+                     <h3>TV</h3>
+                     <a href="#">Xiaomi TV</a>
+                     <a href="#">Redmi TV</a>
+                     <a href="#">QLED TV & OLED TV</a>
+                     <a href="#">TV Accessories</a>
+                   </div>
+                   <div class="column">
+                     <h3>Smart Home</h3>
+                     <a href="#">Air Purifier</a>
+                     <a href="#">Security Camera</a>
+                     <a href="#">Smart Vaccum Cleaner</a>
+                     <a href="#">Smart Light</a>
+                   </div> 
+                 </div> 
+           </li>
+           <li class="nav-item">
+             <div class="dropdown1">
+               <button class="dropbtn1">Tablets
+               </button>
+               <div class="dropdown1-content">
+                 <div class="row">
+                   <div class="column">
+                     <h3>Tablets</h3>
+                     <a href="#">Xiaomi Tab</a>
+                     <a href="#">Redmi Tab</a>
+                     <a href="#">Tab Accessories</a>
+                   </div>
+                 </div> 
+           </li>
+           <li class="nav-item">
+             <div class="dropdown1">
+               <button class="dropbtn1">Life Style
+               </button>
+               <div class="dropdown1-content">
+                 <div class="row">
+                   <div class="column">
+                     <h3>Wearable</h3>
+                     <a href="#">Smart Watch</a>
+                   </div>
+                   <div class="column">
+                     <h3>Audio</h3>
+                     <a href="#">Earbud</a>
+                     <a href="#">NeckBand</a>
+                     <a href="#">Speaker</a>
+                     <a href="#">Wired Earphones</a>
+                   </div> 
+                   <div class="column">
+                     <h3>Phone Accessories</h3>
+                     <a href="#">Power Bank</a>
+                     <a href="#">Cabel</a>
+                     <a href="#">Charger</a>
+                     <a href="#">Case</a>
+                   </div> 
+                   <div class="column">
+                     <h3>Grooming And Lifestyle</h3>
+                     <a href="#">Garment Steamer</a>
+                     <a href="#">Trimmer</a>
+                     <a href="#">Backpack & Travel</a>
+                     <a href="#">Toothbrush</a>
+                     <a href="#">Apparels, shoes and More</a>
+                   </div> 
+                 </div> 
+           </li>
+         </ul>
+         <div class="collapse navbar-collapse py-2 " id="navbarNav">
+             <ul class="navbar-nav ml-auto ">
+                 <li class="nav-item">
+                     <a class="nav-link" href="#about">Discover</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#skill">Support</a>
+                 </li>
+                 <li class="nav-item">
+                   <button style="font-size:20px bg-white"> <i class="material-icons">search</i></button>
+                 </li>
+                 <li class="nav-item">
+                   <button style="font-size:10px bg-white"> <img src="https://img.icons8.com/?size=100&id=5hmLU5efq3jw&format=png&color=000000"></img></button>
+                 </li>
+                 <li class="nav-item">
+                   <div class="dropdown">
+                   <button style="font-size:20px bg-white"> <i class="material-icons">perm_identity</i></button>
+                     <div class="dropdown-content">
+                     <a href="#">Sign In</a>
+                     <a href="#">Sign Up</a>
+                   </div>
+                 </li>
+             </ul>
+         </div>
+     </nav>
+ 
+     <section class="hero container-fluid">
+     
+         <nav class="navbar navbar-expand-lg  bg-light">
+           <h class="h1"><a href="#">Mi Notebook Ultra  <div class="v2"></div>  </a></h>
+           <div class=" d-flex " id="navbarNav">
+             <div class="topnav-right">
+               <a href="website.html">Overview</a>
+               <a href="spec.html">Specs</a>
+               <a href="#search">Review(555)</a>
+               <a href="#about">FAQ</a>
+               <button class="btn">BUY NOW </button>
+             </div>
+         </div>
+     </div>
+         </nav>
+     
+     </section>
+
+  
+  <div class="container m-5">
+    <div class="row m-5">
+      <div class="col-md-6">
+        <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/specs01.png" alt="Mi Notebook Ultra" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <div class="Specifications" style="text-align: center; margin-top: 10%;">
+          <h3 style="font-size: 50px; color: black;">Mi NoteBook Ultra</h3>
+          <p style="font-size: 30px; color: black;">Flagship Display. Ultra Performance.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+   
+<div class="spec-section row">
+  <div class="col-md-4">
+    <h2>Display</h2>
+  </div>
+  <div class="col-md-8">
+    <div class="imagescontent">
+    <p>39.6cm (15.6) Mi TrueLife+ Display<br>
+      3.2K (3200 x 2000) Resolution with 242 PPI <br>
+      16:10 Aspect Ratio <br>
+      100% sRGB Wide Colour Gamut<br>
+      90Hz Smooth Refresh Rate</p>
+    </div>
+    <div class="images" style="position: relative; bottom: 8em;">
+      <img src="https://i02.appmifile.com/262_operator_sg/26/08/2021/22a4836ce86f69057621ed1c099f3230.png" alt="">
+    </div>
+  </div>
+</div>
+<hr>
+   
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Performance</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>11th Gen Intel® Core™<br>
+          i7-11370H with max clock of 4.8GHz<br> 
+         Intel® Iris® Xe Graphics<br>
+         11th Gen Intel® Core™<br>
+          i5-11300H with max clock of 4.4GHz<br> 
+         Intel® Iris® Xe Graphics</p>
+        </div>
+        <div class="images" style="position: relative; bottom: 9em;">
+          <img src="https://i02.appmifile.com/375_operator_sg/26/08/2021/ed50e310c65b58b79082aedb417c50d7.png" alt="">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+   
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Memory</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent" style="position:  relative; top: 3em;">
+        <p>Up to 16 GB DDR4 3200MHz</p>
+      </div>
+      <div class="images" style="position: relative; bottom: 2em;">
+        <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon03.png" alt="">
+      </div>
+      </div>
+    </div>
+    <hr>
+    
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Storage</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent" style="position:  relative; top: 2em;">
+        <p>512 GB PCIe NVMe SSD</p>
+      </div>
+      <div class="images" style="position: relative; bottom: 2em;">
+        <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon04.png" alt="">
+      </div>
+      </div>
+    </div>
+    <hr>
+
+    
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Wireless</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent" style="position:  relative; top: 2em;">
+        <p>Dual band 802.11ax Wi-Fi 6 
+          Bluetooth V5.1</p>
+        </div>
+        <div class="images" style="position: relative; bottom: 2em;">
+          <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon05.png" alt="">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+   
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Interface</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent" style="position:  relative; top: 2em;"s>
+        <p>1 x Type-C™ USB (For charging and data transfer)<br>
+          1 x Thunderbolt 4 (For charging and data transfer)<br>
+          1 x Type-A USB 3.2 Gen 1<br>
+          1 x Type-A USB 2.0</p>
+        </div>
+        <div class="images" style="position: relative; bottom: 5em;">
+          <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon06.png" alt="">
+        </div>
+      </div>
+    </div>
+    <hr>
+   
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Keyboard</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>3-level backlit<br> 
+          Scissor Mechanism <br>
+          1.5mm deep key travel <br>
+          Dedicated Macro key</p>
+        </div>
+        <div class="images" style="position: relative; bottom: 5em;">
+          <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon07.png" alt="">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Touchpad</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>Multi-touch with support for Windows Precision drivers</p>
+      </div>
+        <div class="images" style="position: relative; bottom: 3em;">
+          <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon08.png" alt="">
+        </div>
+
+      </div>
+    </div>
+    <hr>
+
+   
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Security</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>Fingerprint scanner built into the power button with support for
+          Windows Hello</p>
+        </div>
+          <div class="images" style="position: relative; bottom: 3em;">
+            <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon09.png" alt="">
+          </div>
+
+      </div>
+    </div>
+    <hr>
+
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Webcam</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>720p (HD)</p>
+      </div>
+        <div class="images" style="position: relative; bottom: 3em;">
+          <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon10.png" alt="">
+        </div>
+
+      </div>
+    </div>
+    <hr>
+
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Audio</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>2 x 2W Stereo Speakers<br>
+          Support for DTS audio processing app<br>
+          3.5mm combo jack<br>
+          In-built microphone</p>
+        </div>
+          <div class="images" style="position: relative; bottom: 7em;">
+            <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon11.png" alt="">
+          </div>
+
+      </div>
+    </div>
+    <hr>
+
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Battery and <br> Power</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>12-Hour All Day Battery<br>
+          65W Type-C power adapter (compatible across USB Type-C and
+          Thunderbolt 4 ports)</p>
+        </div>
+          <div class="images" style="position: relative; bottom: 4em;">
+            <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon12.png" alt="">
+          </div>
+
+      </div>
+    </div>
+    <hr>
+
+    <div class="spec-section row">
+      <div class="col-md-4">
+        <h2>Weight and<br>
+          Dimensions</h2>
+      </div>
+      <div class="col-md-8">
+        <div class="imagescontent">
+        <p>Material: Aircraft grade Series 6 Aluminium 
+          Dimensions: 
+        1.	Thickness: 17.9 mm <br>
+        2.	Length: 350.1 mm <br>
+        3.	Width: 242.3 mm <br>
+          Weight: 1.7kg</p>
+        </div>
+          <div class="images" style="position: relative; bottom: 6em;">
+            <img src="https://i01.appmifile.com/webfile/globalimg/products/pc/mi-notebook-ultra/icon13.png" alt="">
+          </div>
+
+      </div>
+    </div>
+    <hr>
+
+  
+  <footer class="container-fluid">
+    <p style="text-align: left;"> Copyrights &copy; 2010-2024 Xiaomi. All rights reserved  Sitemap <a href="#"> India /India </a></p>
+  
+  </footer>
+</body>
+</html>
